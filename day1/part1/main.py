@@ -5,10 +5,10 @@ def getArrayFromFile():
 
 
 def calculate(number_array):
-    for i in range(len(number_array)):
-        for x in range(len(number_array)):
-            if (int(number_array[i]) + int(number_array[x])) == 2020:
-                return int(number_array[i]), int(number_array[x])
+    for i in number_array:
+        for x in number_array:
+            if int(i) + int(x) == 2020:
+                return int(i), int(x)
 
 
 if __name__ == '__main__':
