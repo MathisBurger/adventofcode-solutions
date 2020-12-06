@@ -10,7 +10,4 @@ fn main() {
         count += utils::calculate_questions(&group_vector);
     }
     println!("Count: {}", count);
-    /*let index = 5;
-    println!("{:?}", group_vectors[index]);
-    println!("{}", utils::calculate_questions(&group_vectors[index]));*/
 }

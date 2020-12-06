@@ -38,12 +38,3 @@ pub fn calculate_questions(values: &Vec<String>) -> i32 {
     }
     containments.len() as i32
 }
-
-fn adv_contains(value: &String, selector: &char) -> bool {
-    let chars: Vec<char> = value.chars().collect();
-    if chars.contains(selector) {
-        true
-    } else {
-        false
-    }
-}
